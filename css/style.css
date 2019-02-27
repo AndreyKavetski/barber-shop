@@ -61,11 +61,11 @@ body {
 }
 
 .header__logo {
-  background: url('../img/BORODINSKI\ Logo.png') no-repeat;
-  height: 154px;
+  background: url('../img/BORODINSKI\ Logo.png') no-repeat center;
+  height: 203px;
   width: 368px;
-  margin-bottom: 84px;
-  margin-top: 60px;
+  margin-bottom: 50px;
+  margin-top: 50px;
 }
 
 .advantages {
@@ -108,10 +108,10 @@ body {
 }
 
 .container__column {
-  background-color: #f7f4f1;
-  padding: 55px 80px;
-  width: 780px;
-  margin-bottom: 40px;
+  display: block;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 20px 45px;
 }
 
 .info-container {
@@ -198,49 +198,42 @@ input[id="form-input"]::-webkit-input-placeholder {
 }
 
 .footer {
-  background: url('../img/footer-bg.png') no-repeat;
+  background: url('../img/footer-bg.png') no-repeat center;
+  background-size: cover;
 }
 
 .footer__fix {
-  height: 94px;
   padding-top: 55px;
-  padding-bottom: 40px;
   margin-top: 61px;
 }
 
-.container__contacts,
-.container__socialities,
-.container__design {
-  float: left;
+.contacts {
+  display: flex;
+  justify-content: space-between;
 }
 
-.container__contacts {
-  margin-right: 96px;
-}
-
-.container__socialities {
+.contacts__socialities {
   text-align: center;
-  margin-right: 240px;
 }
 
-.container__text {
+.contacts__text {
   color: #ffffff;
   font-size: 13px;
   text-transform: uppercase;
   line-height: 24px;
 }
 
-.container__text_underline {
+.contacts_text_underline {
   border-bottom: 1px solid #ffffff;
   text-decoration: none;
 }
 
-.container__button {
+.contacts__button {
   color: #ffffff;
   padding: 14px 19px;
   background-color: #000000;
 }
 
-.container__design {
+.contacts__design {
   text-align: center;
 }
